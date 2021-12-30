@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "frazzer_utils",
+  "version": "${version}",
+  "name": "FrazzerUtils",
+  "description": "A Utility Mod with QoL Changes",
+  "authors": [
+    "Frazzer"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/frazzer_utils/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.frazzer.utils.FrazzerUtils"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "frazzer_utils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*"
+  }
+}
